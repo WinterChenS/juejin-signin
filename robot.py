@@ -48,5 +48,3 @@ class Robot():
         return r.text
 
 
-if __name__ == '__main__':
-    print(Robot(access_token='18a2121b45615926ffac4f813e7434e01adca99f52ba9d640fabfcacea26023b',secret='SEC1d5964abe24c4d39f295f33fad9cff9babf25fe10131639f44c7dae1668c375f').send_markdown("标题", "内容"))
